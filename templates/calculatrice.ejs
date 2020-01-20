@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('../partials/head') %>
+
+<body>
+
+    <div class="container">
+
+        <%- include('../partials/header') %>
+
+        <section>
+
+            <div id="calculatrice">
+                <div class="resultat"> <%= resultat %> </div>
+
+                <!-- <p class="commentaire">add = + | sub = - | div = / | mult = x</p> -->
+                <form action="calcResult" method="POST">
+
+                    <div>
+                        <input type="text" id="a" name="a" placeholder="1">
+                        <input type="text" id="b" name="b" placeholder="2">
+                    </div>
+                    <div>
+                        <button type="submit" name="operateur" value="add">+</button>
+                        <button type="submit" name="operateur" value="sub">-</button>
+                        <button type="submit" name="operateur" value="mult">x</button>
+                        <button type="submit" name="operateur" value="div">/</button>
+                    </div>
+
+                    <!-- <select name="operateur">
+                        <option value="add" selected> + </option>
+                        <option value="sub"> - </option>
+                        <option value="mult"> x </option>
+                        <option value="div"> / </option>
+                    </select> -->
+
+                </form>
+            </div>
+
+
+        </section>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+*{
+    padding: 0; margin: 0;
+}
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80vw;
+    margin: auto;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+    background-image: url("images/licorne.jpg");
+    background-position: center;
+    color: white;
+    padding: 20px;
+}
+
+h1{
+    margin-top: 130px;
+}
+ section{
+     width: 100%;
+     padding: 20px;
+     background-color: white;
+ }
+
+ .resultat{
+    margin: 10px 30px;
+    padding: 10px;
+    border: violet 1px dotted;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(253, 249, 249);
+
+ }
+
+ .commentaire{
+     color: pink;
+     font-size: small;
+     margin-bottom: 5px;
+ }
+
+ button{
+     padding: 5px;
+     width: 50px;
+     background-color: pink;
+     margin: 5px;
+ }
+
+ #calculatrice form, #calculatrice form div{
+     width: 80%;
+     margin: auto;
+     padding: 5px;
+ }
+
+ #calculatrice form div{
+     display: flex;
+     justify-content: center;
+ }
+
+ input{
+     width: 40px;
+     padding: 2px;
+     margin: 3px;
+ }
+
+ #calculatrice{
+    background-color: rgb(238, 224, 226);
+    border: purple 1px solid;
+    border-radius: 10px;
+    width : 300px;
+    margin: auto;
+ }
+
+ nav ul{
+     width: 60%;
+     margin: 20px auto 0 auto;
+     display: flex;
+     justify-content: center;
+     list-style: none;
+
+ }
+
+ nav a{
+     color: white;
+     text-decoration: none;
+     width: 100px;
+     display: block;
+     padding: 5px;
+     margin: 0 5px;
+     background-color: crimson;
+     border-radius: 5px;
+ }
+
+ nav a:hover {
+     background-color: violet;
+ }
